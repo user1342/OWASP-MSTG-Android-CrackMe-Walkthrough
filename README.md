@@ -25,7 +25,6 @@ apktool d UnCrackable-Level1.apk
 
 Once completed traverse to the entry point of the application. In this case it is: ```sg/vantagepoint/uncrackable1/MainActivity```. Inside of the Main Activity the method that orchestrates the tamper-detection checks is the ```a``` method. By opening the application in Jadx-Gui the same method can be seen in Java (*Psudo code*).
 
-<br>
 ```java
 private void a(String str) {
     AlertDialog create = new AlertDialog.Builder(this).create();
