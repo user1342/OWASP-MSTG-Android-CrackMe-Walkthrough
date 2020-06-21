@@ -1,4 +1,4 @@
-# OWASP MSTG Android CrackMe
+# OWASP MSTG Android CrackMe Walkthrough
 
 [The OWASP MSTG Android CrackMe](https://github.com/OWASP/owasp-mstg/tree/master/Crackmes) is a series of Android applications with hidden flags designed to develop Java and Native reverse engineering skills.
 
@@ -14,7 +14,6 @@ The following walkthrough uses the below tools:
 
 ### Tamper-Detection
 <img align="right" width="200" src="/assets/tamper-checks.jpg">
-<br>
 
 One mechanism that all three of the CrackMe challenges have in common is Tamper Detection. In the case of the first app this is done by checking if the device is rooted or running as debuggable. There are a few ways that one could get around these checks. One method is by patching the apk to remove the pieces of code that orchestrate the tamper detection checks.  
 
